@@ -1,8 +1,16 @@
 {
   "dependencies": {
+    "homepage":"http://MohamedElsayed8101996.githup.io/hmn",
     "@fortawesome/fontawesome-free": "^6.2.1",
     "bootstrap": "^5.2.3",
+    "gh-pages": "^5.0.0",
     "jquery": "^3.6.3",
     "typescript": "^4.9.5"
+  },
+  "scripts": {
+
+"predeploy":"npm run build",
+"deploy":"gh-pages -d buildnpm"
+    
   }
 }
